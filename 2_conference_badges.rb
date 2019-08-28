@@ -10,11 +10,11 @@ def batch_badge_creator(array)
   badge_message
 end
 
-def batch_badge_creator(speaker_list)
-  speaker_list.map do |speaker| 
-    badge_maker(speaker)
-  end
-end
+# def batch_badge_creator(speaker_list)
+#   speaker_list.map do |speaker| 
+#     badge_maker(speaker)
+#   end
+# end
 
 def assign_rooms(array)
   speaker_room = []
