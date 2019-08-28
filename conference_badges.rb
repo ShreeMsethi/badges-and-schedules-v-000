@@ -42,27 +42,10 @@ end
  
 def printer(attendees)
   
-  # print_b_b_c = batch_badge_creator(attendees)
-  
   batch_badge_creator(attendees).each {|message| puts message}
-  
-  # print_b_b_c.each {|message| puts message}
-  
-  # print_assign_rooms = assign_rooms(attendees)
   
   assign_rooms(attendees).each {|message| puts message}
   
-  # print_assign_rooms.each {|message| puts message}
-  
-# binding.pry
- 
-#   attendees.map do |attendee| 
-#   badge_maker(attendee)
-# end
- 
-#   attendees.map.with_index {|name, room| "Hello, #{name}! You'll be assigned to room #{room + 1}!"}
- 
- 
 end
 
 
