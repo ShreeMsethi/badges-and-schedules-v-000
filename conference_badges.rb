@@ -20,11 +20,11 @@ attendees.map do |attendee|
 end
 end
 
-# def batch_badge_creator(array)
-#   badge_message = []
-#   array.each {|speaker| badge_message << badge_maker(speaker)}
-#   badge_message
-# end
+def batch_badge_creator(array)
+  badge_message = []
+  array.each {|speaker| badge_message << badge_maker(speaker)}
+  badge_message
+end
 
 # Method - assign_rooms - returns a list of room assignments in the form of:"Hello,______! You'll be assigned to room_____!"
 
