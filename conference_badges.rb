@@ -14,17 +14,17 @@ end
 # Method - batch_badge_creator takes in an array of names as an argument and returns an array of badge messages .
 
 
-# def batch_badge_creator(attendees)
-# attendees.map do |attendee| 
-#   badge_maker(attendee)
-# end
-# end
-
-def batch_badge_creator(array)
-  badge_message = []
-  array.each {|speaker| badge_message << badge_maker(speaker)}
-  badge_message
+def batch_badge_creator(attendees)
+attendees.map do |attendee| 
+  badge_maker(attendee)
 end
+end
+
+# def batch_badge_creator(array)
+#   badge_message = []
+#   array.each {|speaker| badge_message << badge_maker(speaker)}
+#   badge_message
+# end
 
 # Method - assign_rooms - returns a list of room assignments in the form of:"Hello,______! You'll be assigned to room_____!"
 
