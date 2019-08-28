@@ -20,3 +20,7 @@ def assign_rooms(array)
   speaker_room = []
   array.each_with_index {|speaker| speaker_room << "Hello, #{speaker}! You'll be assigned to room"}
 end
+
+def assign_rooms(attendees)
+  attendees.each_with_index(1) {|name, room| "Hello, #{name}! You'll be assigned to room #{room}!"}
+end
