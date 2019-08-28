@@ -4,11 +4,11 @@ end
 
 speaker_list = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(array)
-  badge_message = []
-  array.each {|speaker| badge_message << badge_maker(speaker)}
-  badge_message
-end
+# def batch_badge_creator(array)
+#   badge_message = []
+#   array.each {|speaker| badge_message << badge_maker(speaker)}
+#   badge_message
+# end
 
 def batch_badge_creator(speaker_list)
   speaker_list.map do |speaker| 
