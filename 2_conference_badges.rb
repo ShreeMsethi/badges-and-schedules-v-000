@@ -6,7 +6,7 @@ speaker_list = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(array)
   badge_message = []
-  array.each {|speaker| badge_message << "Hello, my name is #{speaker}"}
+  array.each {|speaker| badge_message << badge_maker(speaker)}
   badge_message
 end
 
